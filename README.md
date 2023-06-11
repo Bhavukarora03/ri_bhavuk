@@ -1,21 +1,31 @@
 # Flutter Project
 
-This is a Flutter project that showcases XYZ functionality.
+This is a Flutter project task submission
 
 ## Getting Started
 
-####Clone the repository
+##### Clone the repository
 
-####https://github.com/Bhavukarora03/ri_bhavuk_task.git
+##### https://github.com/Bhavukarora03/ri_bhavuk_task.git
 
-####cd your-repo
+##### cd your-repo
 
-####flutter pub get
+##### flutter pub get
 
-### Prerequisites
+##### flutter run
 
-Make sure you have the following software installed on your machine:
+## Packages Used
+#### The following packages were used in this project:
 
-- Flutter SDK: [Installation Guide](https://flutter.dev/docs/get-started/install)
-- Dart SDK: [Installation Guide](https://dart.dev/get-dart)
+``` cupertino_icons: ^1.0.2
+shared_preferences: ^2.1.2
+flutter_form_builder: ^9.0.0
+flutter_slidable: ^3.0.0
+flutter_bloc: ^7.3.3
+equatable: ^2.0.5
+intl: ^0.18.0
+calendar_date_picker2: ^0.5.2
+form_builder_validators: ^9.0.0 ```
+
+
 

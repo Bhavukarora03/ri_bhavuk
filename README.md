@@ -4,10 +4,13 @@ This is a Flutter project that showcases XYZ functionality.
 
 ## Getting Started
 
-Clone the repository:
-https://github.com/Bhavukarora03/ri_bhavuk_task.git
-cd your-repo
-flutter pub get
+####Clone the repository
+
+####https://github.com/Bhavukarora03/ri_bhavuk_task.git
+
+####cd your-repo
+
+####flutter pub get
 
 ### Prerequisites
 

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:intl/intl.dart';
-import 'package:ri_bhavuk/bloc_classes/employee_bloc.dart';
+import 'package:ri_bhavuk/bloc/employee_bloc.dart';
 import 'package:ri_bhavuk/models/employee_model.dart';
 import 'package:ri_bhavuk/pages/add_update_employee_data.dart';
 import 'package:ri_bhavuk/theme/theme.dart';

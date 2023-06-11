@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ri_bhavuk/bloc_classes/employee_bloc.dart';
-import 'package:ri_bhavuk/data/employee_repositery.dart';
+import 'package:ri_bhavuk/bloc/employee_bloc.dart';
 import 'package:ri_bhavuk/pages/home_screen.dart';
+import 'package:ri_bhavuk/repositery/employee_repositery.dart';
 import 'package:ri_bhavuk/theme/theme.dart';
 
 

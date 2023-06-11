@@ -1,10 +1,9 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ri_bhavuk/data/employee_repositery.dart';
 import 'package:ri_bhavuk/models/employee_model.dart';
+import 'package:ri_bhavuk/repositery/employee_repositery.dart';
 
 part 'employee_event.dart';
-
 part 'employee_state.dart';
 
 class EmployeeBLoC extends Bloc<EmployeeEvent, EmployeeState> {

@@ -3,11 +3,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
 import 'package:intl/intl.dart';
-import 'package:ri_bhavuk/bloc_classes/employee_bloc.dart';
+import 'package:ri_bhavuk/bloc/employee_bloc.dart';
 import 'package:ri_bhavuk/components/button.dart';
 import 'package:ri_bhavuk/components/date_picker.dart';
-import 'package:ri_bhavuk/data/employee_repositery.dart';
 import 'package:ri_bhavuk/models/employee_model.dart';
+import 'package:ri_bhavuk/repositery/employee_repositery.dart';
 import 'package:ri_bhavuk/theme/theme.dart';
 
 class AddUpdateEmployeeData extends StatefulWidget {

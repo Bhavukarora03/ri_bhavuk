@@ -37,17 +37,11 @@ class Button extends StatelessWidget {
       onPressed: onPressed,
       style: ElevatedButton.styleFrom(
         elevation: 0,
+        padding: EdgeInsets.zero,
         backgroundColor: backgroundColor,
         foregroundColor: foregroundColor,
       ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          if (icon != null) Icon(icon),
-          if (icon != null) const SizedBox(width: 8),
-          Text(label),
-        ],
-      ),
+      child: Text(label, style:  TextStyle(fontSize: MediaQuery.of(context).size.width * 0.03)),
     );
   }
 }

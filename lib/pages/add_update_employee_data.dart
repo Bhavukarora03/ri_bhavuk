@@ -127,6 +127,8 @@ class _AddUpdateEmployeeDataState extends State<AddUpdateEmployeeData> {
                       FormBuilderTextField(
                         initialValue: widget.isUpdate ? widget.employeeModel!.name : null,
                         autovalidateMode: AutovalidateMode.onUserInteraction,
+                        style: TextStyle(
+                            overflow: TextOverflow.ellipsis, fontSize: MediaQuery.of(context).size.width * 0.03),
                         name: 'employee_name',
                         validator: FormBuilderValidators.compose([
                           FormBuilderValidators.required(),
@@ -141,6 +143,8 @@ class _AddUpdateEmployeeDataState extends State<AddUpdateEmployeeData> {
                       FormBuilderTextField(
                         autovalidateMode: AutovalidateMode.onUserInteraction,
                         readOnly: true,
+                        style: TextStyle(
+                            overflow: TextOverflow.ellipsis, fontSize: MediaQuery.of(context).size.width * 0.03),
                         name: 'role',
                         validator: FormBuilderValidators.required(),
                         onTap: () {
@@ -170,14 +174,17 @@ class _AddUpdateEmployeeDataState extends State<AddUpdateEmployeeData> {
                               onTap: () {
                                 _fromDate(context);
                               },
+                              style: TextStyle(
+                                  overflow: TextOverflow.ellipsis, fontSize: MediaQuery.of(context).size.width * 0.03),
                               decoration: const InputDecoration(
                                 hintText: 'Joining Date',
+                                hintStyle: TextStyle(overflow: TextOverflow.ellipsis),
                                 prefixIcon: Icon(Icons.date_range),
                               ),
                             ),
                           ),
                           const SizedBox(
-                            width: 100,
+                            width: 50,
                             child: Icon(
                               Icons.arrow_forward,
                               color: primaryColor,
@@ -190,12 +197,15 @@ class _AddUpdateEmployeeDataState extends State<AddUpdateEmployeeData> {
                                   : null,
                               readOnly: true,
                               name: 'to_date',
+                              style: TextStyle(
+                                  overflow: TextOverflow.ellipsis, fontSize: MediaQuery.of(context).size.width * 0.03),
                               onTap: () {
                                 _toDate(context);
                               },
                               keyboardType: TextInputType.number,
                               decoration: const InputDecoration(
                                 hintText: 'No Date',
+                                hintStyle: TextStyle(overflow: TextOverflow.ellipsis),
                                 prefixIcon: Icon(Icons.date_range),
                               ),
                             ),
